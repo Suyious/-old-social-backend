@@ -26,5 +26,5 @@ mongoose
     console.log(`Server running at ${res.url}`);
   }) 
   .catch(err => {
-    console.err(err);
+    console.error(err);
   })
